@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  color: blueviolet;
+}
+input {
+  width: 80%;
+  height: 3rem;
+  padding: 1.5rem;
+  font-size: 2rem;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  margin: 2.5rem 0rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  margin: 2rem;
+  color: blueviolet;
+  font-size: 2rem;
+}
+span {
+  margin: 1rem;
+  font-size: 3rem;
+  padding: 1rem;
+  cursor: pointer;
+}
