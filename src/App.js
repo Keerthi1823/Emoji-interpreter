@@ -45,6 +45,9 @@ export default function App() {
   }
   function clickHandler(item) {
     var meaning = emojiDict[item];
+    if (meaning === undefined) {
+      meaning = "this emoji is not present in our database";
+    }
     setuser(meaning);
   }
   return (
